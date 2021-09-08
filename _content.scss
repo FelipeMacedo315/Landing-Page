@@ -1,0 +1,106 @@
+
+$cortexto-color:rgb(116, 113, 113);
+.content{
+  display: flex;
+  
+
+}
+@mixin face_imagens {
+  position: absolute;
+  top: 20%;
+  left: 65%;
+  width: 25%
+
+}
+#azul{
+  @include face_imagens();
+  transform: rotate(300deg)
+}
+#rosa{
+  @include face_imagens();
+  transform: rotate(320deg)
+}
+#roxo{
+  @include face_imagens();
+  transform: rotate(340deg)
+}
+#face{
+  @include face_imagens();
+  transform: rotate(360deg);
+  width: 25%;
+}
+
+.title-and-email{
+ height: 40vh;
+ width: 35%;
+ margin-left: 10%;
+ margin-top: 10%;
+ ::placeholder{
+ padding-left: 5%;
+
+}
+
+ h1{
+   font-size: 300%;
+ }
+   p{
+     font-size: 100%;
+     margin-top: -5%;
+     color: $cortexto-color;
+   }
+   input{
+     height: 15%;
+     width: 60%;
+     background-color: white;
+     border: none;
+     align-content: center;
+     
+    
+   
+   }
+   button{
+     height: 17%;
+     width: 25%;
+     margin-left: 5%;
+     color: white;
+     background-color: rgb(88, 88, 243);
+     border-radius: 5%;
+   }
+   svg{
+  margin-right: 5%;
+  margin-top: 2%;
+
+   }
+   .social-media{
+     color: $cortexto-color;
+     display: flex;
+     align-items: center;
+     justify-content: flex-start;
+   position: relative;
+   right: 10%;
+   top: 60%;
+  
+   }
+  
+  }
+  #avatar{
+    position: absolute;
+    top: 80%;
+    left: 74%;
+    
+  }
+  #question{
+    position: absolute;
+    top: 78%;
+    left: 80%;
+  }
+  #specialist{
+    position: absolute;
+    top: 80%;
+    left: 80%;
+  }
+
+ 
+    
+
+

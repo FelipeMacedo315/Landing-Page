@@ -1,0 +1,190 @@
+.content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#azul {
+  position: absolute;
+  top: 20%;
+  left: 65%;
+  width: 25%;
+  -webkit-transform: rotate(300deg);
+          transform: rotate(300deg);
+}
+
+#rosa {
+  position: absolute;
+  top: 20%;
+  left: 65%;
+  width: 25%;
+  -webkit-transform: rotate(320deg);
+          transform: rotate(320deg);
+}
+
+#roxo {
+  position: absolute;
+  top: 20%;
+  left: 65%;
+  width: 25%;
+  -webkit-transform: rotate(340deg);
+          transform: rotate(340deg);
+}
+
+#face {
+  position: absolute;
+  top: 20%;
+  left: 65%;
+  width: 25%;
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+  width: 25%;
+}
+
+.title-and-email {
+  height: 40vh;
+  width: 35%;
+  margin-left: 10%;
+  margin-top: 10%;
+}
+
+.title-and-email ::-webkit-input-placeholder {
+  padding-left: 5%;
+}
+
+.title-and-email :-ms-input-placeholder {
+  padding-left: 5%;
+}
+
+.title-and-email ::-ms-input-placeholder {
+  padding-left: 5%;
+}
+
+.title-and-email ::placeholder {
+  padding-left: 5%;
+}
+
+.title-and-email h1 {
+  font-size: 300%;
+}
+
+.title-and-email p {
+  font-size: 100%;
+  margin-top: -5%;
+  color: #747171;
+}
+
+.title-and-email input {
+  height: 15%;
+  width: 60%;
+  background-color: white;
+  border: none;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.title-and-email button {
+  height: 17%;
+  width: 25%;
+  margin-left: 5%;
+  color: white;
+  background-color: #5858f3;
+  border-radius: 5%;
+}
+
+.title-and-email svg {
+  margin-right: 5%;
+  margin-top: 2%;
+}
+
+.title-and-email .social-media {
+  color: #747171;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  position: relative;
+  right: 10%;
+  top: 60%;
+}
+
+#avatar {
+  position: absolute;
+  top: 80%;
+  left: 74%;
+}
+
+#question {
+  position: absolute;
+  top: 78%;
+  left: 80%;
+}
+
+#specialist {
+  position: absolute;
+  top: 80%;
+  left: 80%;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#button-hosterr {
+  background-image: -webkit-gradient(linear, left top, right top, from(#ffae00), to(#ff0044));
+  background-image: linear-gradient(to right, #ffae00, #ff0044);
+  color: white;
+  height: 25px;
+  border-radius: 20px;
+}
+
+.header-left {
+  width: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.header-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 20%;
+  color: #747171;
+}
+
+.header-right button {
+  background-color: #4c4cf8;
+  color: white;
+  border-radius: 5px;
+  width: 50%;
+}
+
+.header-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #747171;
+}
+
+body {
+  background-color: #faf5d1;
+}
+/*# sourceMappingURL=index.css.map */

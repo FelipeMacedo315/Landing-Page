@@ -1,0 +1,72 @@
+.title-and-email {
+  width: 40%;
+  border: solid;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 140%;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#button-hosterr {
+  background-image: -webkit-gradient(linear, left top, right top, from(#ffae00), to(#ff0044));
+  background-image: linear-gradient(to right, #ffae00, #ff0044);
+  color: white;
+  height: 25px;
+  border-radius: 20px;
+}
+
+.header-left {
+  width: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.header-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 20%;
+  color: #4f4c4c;
+}
+
+.header-right button {
+  background-color: #4c4cf8;
+  color: white;
+  border-radius: 5px;
+  width: 50%;
+}
+
+.header-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #4f4c4c;
+}
+/*# sourceMappingURL=header.css.map */

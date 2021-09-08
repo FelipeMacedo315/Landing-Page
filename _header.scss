@@ -1,0 +1,42 @@
+
+$cortexto-color:rgb(116,113,113);
+
+.header{
+    display: flex;
+    justify-content: space-around;
+ 
+}
+
+
+#button-hosterr{
+    background-image: linear-gradient(to right, rgb(255, 174, 0), rgb(255, 0, 68));
+    color: white;
+    height: 25px;
+    border-radius: 20px;
+    }
+
+.header-left{
+width: 20%;
+display: flex;
+align-items: center;
+justify-content: space-around;
+
+
+}
+.header-right{
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+    color: $cortexto-color;
+    button{
+        background-color: rgb(76, 76, 248);
+        color: white;
+        border-radius: 5px;
+        width: 50%;
+    }
+}
+
+.header-title{
+    display: flex;
+    color: $cortexto-color
+}
