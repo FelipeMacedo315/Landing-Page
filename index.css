@@ -143,7 +143,7 @@
   background-image: -webkit-gradient(linear, left top, right top, from(#ffae00), to(#ff0044));
   background-image: linear-gradient(to right, #ffae00, #ff0044);
   color: white;
-  height: 25px;
+  height: 50%;
   border-radius: 20px;
 }
 
@@ -182,6 +182,24 @@
   display: -ms-flexbox;
   display: flex;
   color: #747171;
+}
+
+@media (max-width: 375px) {
+  .header-left {
+    margin-left: 5%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .header-right {
+    position: absolute;
+    right: 80%;
+    top: 15%;
+  }
+  .content {
+    margin-top: 20%;
+  }
 }
 
 body {
