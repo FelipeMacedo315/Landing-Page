@@ -10,10 +10,32 @@
   position: absolute;
   right: 80%;
   top: 15%;
+  button{
+    width: 100%;
+  }
   
 }
 .content{
     margin-top: 20%;
+}
+
+.title-and-email{
+
+  input{
+    width: 150%;
+  }
+  button{
+    height: 7%;
+  position: absolute;
+  left: 65%;
+  top: 129.5%;
+  }
+  svg{
+    margin-top: 3%;
+  }
+  p{
+    margin-top: 1%;
+  }
 }
 
 }
